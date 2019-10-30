@@ -1,0 +1,22 @@
+.banner {
+    background-image: url('../../images/background3.jpg') !important;
+    height: 370px;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+h4 {
+    text-align: center;
+    text-decoration: white 2px 2px 4px;
+    color: white;
+  }
+  
+  @media (min-width: 576px) {
+    .banner {
+      font-size: calc(10px + 14 * (100vw - 320px) / 800);
+    
+    }
+  }
