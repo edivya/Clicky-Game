@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Container from './Container';
 import Footer from './Footer';
-import Background from './Background';
+import Banner from './Banner';
 import images from '../images';
 
 class App extends Component {
@@ -117,7 +117,7 @@ class App extends Component {
           navMessage={state.navMessage}
           navMsgColor={state.navMsgColor}
         />
-        <Background />
+        <Banner />
         <Container
           shake={state.shake}
           characters={state.allCharacters}
