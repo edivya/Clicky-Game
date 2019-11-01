@@ -1,0 +1,21 @@
+.banner {
+  background-image: url("../../images/background.jpg") !important;
+  height: 320px;
+  width: 100%;
+  background-image: unset;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 18px;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(253, 4, 4);
+  font-size: 30px;
+}
+
+@media (min-width: 576px) {
+  .banner {
+    font-size: calc(10px + 14 * (100vw - 320px) / 800);
+  }
+}
