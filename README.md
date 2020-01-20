@@ -1,6 +1,6 @@
 # Clicky-Game
 
-!(https://clickygame9001.herokuapp.com/)
+https://clickygame9001.herokuapp.com/
 
 ## Overview
 
