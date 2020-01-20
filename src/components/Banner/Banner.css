@@ -13,6 +13,8 @@ h4 {
   color: rgb(253, 4, 4);
   font-size: 30px;
   margin-top: auto;
+  font-family: "Rock Salt", cursive;
+  /* font-size: 22px; */
 }
 
 @media (min-width: 576px) {
