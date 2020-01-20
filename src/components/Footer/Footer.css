@@ -1,8 +1,9 @@
 .footer {
-  background: rgb(8, 44, 141);
+  background: rgb(243, 10, 185);
   color: yellow;
   font-size: 30px;
   height: 50px;
   padding-bottom: 10px;
   text-align: center;
+  font-family: "Rock Salt", cursive;
 }
