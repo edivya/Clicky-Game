@@ -26,3 +26,4 @@ Every time an image is clicked, the images shuffle themselves in a random order.
 ## Deploying react app to heroku
 
 - `heroku create clickygame9001-test --buildpack mars/create-react-app`
+- To Run this app : npm start
